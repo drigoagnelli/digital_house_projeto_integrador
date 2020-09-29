@@ -9,7 +9,7 @@ li {
 }
 
 .navbar-expand-lg{
-    background-color:#0466C8;
+    background-color:#33415C;
     ;
 }
 
@@ -28,91 +28,37 @@ nav a.navbar-brand {
     height: 50px;
 }
 
-.carousel, .carousel-inner, .carousel-item img{
-    height: 400px;
-    /* overflow: hidden; */
-    object-fit: cover;
-}
-.carousel {
-    display: none;
-}
-
-.carousel-caption .btn-pesquisar {
-    background-color: #023E7D;
-    color: #fff;
-    font-size: x-large;
-    width: 200px;
-    border: solid 1px #fff;
-    border-radius: 2rem;
-}
-
-.carousel-caption .btn-pesquisar a:focus {
-
-    border-radius: 2rem;
-}
-
-.carousel-caption .btn-pesquisar:hover {
-    background-color: #1860ad;
-
-}
-
-
-.pesquisar {
-    border-bottom-right-radius: 3rem;
-    border-bottom-left-radius: 3rem;
-    color: #33415c;
-    background-color: #9bacbb;
-    width:100% ;
-}
-.pesquisar h2 {
-padding: 85px 0 15px 0;
-}
-.pesquisar button {
-    background: #023E7D;
-    color: #fff;
-    border: solid 2px #fff;
-}
-
-.pesquisar button:hover {
-    background-color:  #1860ad;
-}
-
-
-.form-control {
-    width: 60%;
-    border-radius: 2rem;
-    margin-bottom: 15px;
-}
 
 .container-vagas h3 {
     margin: 20px 0;
     text-align: center;
-    color: #33415C;
+    color: #000;
 }
 
-.card-vaga {
+.card-dev {
     padding: 5px 20px;
     margin: 0px 5px;
-    border-radius: 1rem;
-    border: 2px solid #979DAC;
     min-width: 210px;
+    background-color: #E5E5E5;
+    border:none;
+    align-items: center;
 }
 
 .col {
     padding: 0;
 }
 
-.card-vaga li:nth-child(2) {
+.card-dev li:nth-child(2) {
     border-left: solid 1px #9bacbb;
     border-right: solid 1px #9bacbb;
 
 }
 
-.card-vaga li {
+.card-dev li {
     padding: 0 10px;
 }
 
-.card-vaga .card-botton a {
+.card-dev .card-botton a {
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -121,16 +67,25 @@ padding: 85px 0 15px 0;
     height: 40px;
     background-color: #C4C4C4;
     border-radius: 50%;
-    color: #33415c;
+    color: #000;
 }
 
-.card-vaga h4 {
-    color: #33415c;
+.card-dev h4 {
+    color: #000;
     font-size: 1.3rem;
 }
 
-.card-vaga p {
+.card-dev p {
     margin: 0;
+}
+
+
+.descricao {
+    text-align: center;
+}
+
+.mt-4 a{
+    color: #000;
 }
 
 #logo-footer {
@@ -146,8 +101,9 @@ padding: 85px 0 15px 0;
 }
 
 img.card-img-top {
-    display: none;
-}
+    border-radius: 50%;
+    width: 140px;
+    }
 
 .card-botton {
     justify-content: space-between;
@@ -187,6 +143,7 @@ ul {
 
 .sublinhado {
     text-decoration:underline;
+    color: #000;
 }
 
 @media (min-width: 768px) {
@@ -210,4 +167,19 @@ ul {
         display: block;
     }
 
+    .row{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    
+    .navbar {
+        padding: 0.5rem 11rem;
+    }
+
+    #logo-footer {
+        margin-right: 15px;
+        margin-top: 12px;
+        width: 100px;
+        margin-left: 15%;
+    }
 }
